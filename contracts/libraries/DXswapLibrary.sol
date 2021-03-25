@@ -21,7 +21,8 @@ library DXswapLibrary {
             hex'ff',
             factory,
             keccak256(abi.encodePacked(token0, token1)),
-            hex'd306a548755b9295ee49cc729e13ca4a45e00199bbd890fa146da43a50571776' // init code hash
+            hex'f23fac090dc304615f73576672d67b74204fd7c289024743f16fc2ff983711ca' // init code hash 1hive's deployment
+            // hex'd306a548755b9295ee49cc729e13ca4a45e00199bbd890fa146da43a50571776' // init code hash original
         ))));
     }
 
@@ -31,7 +32,7 @@ library DXswapLibrary {
         (uint reserve0, uint reserve1,) = IDXswapPair(pairFor(factory, tokenA, tokenB)).getReserves();
         (reserveA, reserveB) = tokenA == token0 ? (reserve0, reserve1) : (reserve1, reserve0);
     }
-    
+
     // fetches and sorts the reserves for a pair
     function getSwapFee(address factory, address tokenA, address tokenB) internal view returns (uint swapFee) {
         (address token0,) = sortTokens(tokenA, tokenB);
