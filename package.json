@@ -1,6 +1,6 @@
 {
-  "name": "dxswap-periphery",
-  "version": "0.3.7",
+  "name": "@1hive/dxswap-periphery",
+  "version": "0.3.7b",
   "description": "Peripheral smart contracts for interacting with DXswap core contracts",
   "engines": {
     "node": ">=10"
@@ -14,7 +14,7 @@
     "contracts"
   ],
   "dependencies": {
-    "dxswap-core": "git://github.com/levelkdev/dxswap-core.git#v0.3.1"
+    "dxswap-core": "https://github.com/1Hive/dxswap-core.git",
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",
