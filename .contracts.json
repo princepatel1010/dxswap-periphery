@@ -13,5 +13,8 @@
   },
   "xdai": {
     "router": "0xdDbcB78EDb6c7bf26B131C16AB3bc71305B47653"
+  },
+  "matic": {
+    "router": "0x992AA39502D76E594B80B4102F5FeA692fE0d537"
   }
 }

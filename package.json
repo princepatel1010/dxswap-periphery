@@ -14,7 +14,7 @@
     "contracts"
   ],
   "dependencies": {
-    "dxswap-core": "https://github.com/1Hive/dxswap-core.git",
+    "dxswap-core": "https://github.com/1Hive/dxswap-core.git"
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",
