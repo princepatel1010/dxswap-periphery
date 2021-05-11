@@ -1,6 +1,6 @@
 {
-  "name": "@1hive/dxswap-periphery",
-  "version": "0.3.7b",
+  "name": "dxswap-periphery",
+  "version": "0.3.7",
   "description": "Peripheral smart contracts for interacting with DXswap core contracts",
   "engines": {
     "node": ">=10"
