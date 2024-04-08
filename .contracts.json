@@ -12,9 +12,12 @@
     "router": "0x882A796B6f1f1679BBa1dd127EcE41Fd4f7aEacc"
   },
   "xdai": {
-    "router": "0x1C232F01118CB8B424793ae03F870aa7D0ac7f77"
+    "router": "0x5799ac429B5fCEa60910d123b61982884c961470"
   },
   "matic": {
-    "router": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
+    "router": "0x5799ac429B5fCEa60910d123b61982884c961470"
+  },
+  "espento": {
+    "router": "0x5799ac429B5fCEa60910d123b61982884c961470"
   }
 }
